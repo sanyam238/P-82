@@ -6,7 +6,7 @@ color = "black";
 
 width_line = 1;
 
-radius = document.getElementById("Radius");
+
 
  var MouseEvent = "empty";
 
@@ -18,7 +18,7 @@ function my_mouseDown(e) {
 color = document.getElementById("Color").value;
 
 width_line = document.getElementById("width_line").value;
-
+radius = document.getElementById("Radius").value;
 MouseEvent = "mousedown";
 console.log("mouse down");
 }
@@ -41,7 +41,7 @@ if (MouseEvent == "mousedown"){
 
     
 
-ctx.moveTo(last_position_X,last_position_Y);
+
 console.log("last position of X and Y coordinates = ");
 console.log("X = " + last_position_X + " ,Y = " + last_position_Y);
 
